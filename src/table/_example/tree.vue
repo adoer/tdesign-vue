@@ -368,7 +368,7 @@ export default {
     },
 
     onTreeExpandChange(context) {
-      console.log(context.rowState.expanded ? '展开' : '收起', context);
+      console.log(context.rowState.expanded ? '收起' : '展开', context);
       /**
        * 如果是懒加载，请确认自己完成了以下几个步骤
        * 1. 提前设置 children 值为 true；
